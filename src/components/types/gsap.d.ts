@@ -1,15 +1,15 @@
-declare module "gsap-trial/SplitText" {
+declare module "gsap/SplitText" {
   export const SplitText: any;
 }
 
-declare module "gsap-trial/ScrollTrigger" {
+declare module "gsap/ScrollTrigger" {
   export const ScrollTrigger: any;
 }
 
-declare module "gsap-trial/ScrollSmoother" {
+declare module "gsap/ScrollSmoother" {
   export const ScrollSmoother: any;
 }
 
-declare module "gsap-trial/CustomEase" {
+declare module "gsap/CustomEase" {
   export const CustomEase: any;
 }

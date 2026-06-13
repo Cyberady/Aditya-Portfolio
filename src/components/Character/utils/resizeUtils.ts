@@ -16,7 +16,7 @@ export default function handleResize(
   camera.aspect = width / height;
   camera.updateProjectionMatrix();
   const workTrigger = ScrollTrigger.getById("work");
-  ScrollTrigger.getAll().forEach((trigger) => {
+  ScrollTrigger.getAll().forEach((trigger: ScrollTrigger) => {
     if (trigger != workTrigger) {
       trigger.kill();
     }
